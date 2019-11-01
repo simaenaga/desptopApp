@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>カレンダー</title>
+    <link rel="stylesheet" type = "text/css" href="calendar.css">
+    <script type="text/javascript" src="calendar.js"></script></head>
+<body>
+    <div class = "frame-box">
+        <div class = "calendar-box">
+            <div id="calendar" class = "calendar"></div>
+        </div>
+        <div class = "diary-box">
+            <div id= "diary_date" class = "diary_date"></div>
+            <input type = "text" id = "diary_title"><br><br>
+            <textarea id = "diary_body" rows="10" cols="18"></textarea><br><br>
+            <input type = "button" id = "button" onclick = "onSave(this)" value = "保存">
+        </div>
+    </div>
+</body>
+</html>
